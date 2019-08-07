@@ -17,5 +17,31 @@ class GameScene: SKScene {
         spaceShip.position = CGPoint(x: frame.maxX/2, y: frame.minY)
         addChild(spaceShip)
         
+        run(SKAction.repeatForever(SKAction.sequence([SKAction.run(addEnemy),SKAction.wait(forDuration: 1.0)])))
+    }
+    
+    func random() -> CGFloat {
+        return CGFloat.random(in: 0...1)
+    }
+    
+    func random(min: CGFloat, max: CGFloat) -> CGFloat {
+        return random() * (max - min) + min
+    }
+    
+    func addEnemy() {
+        let enemy = SKSpriteNode(imageNamed: "enemy")
+        
+        let spawnPointX = random(min: enemy.size.width/2 , max: size.width - enemy.size.width/2)
+        
+        print(random())
+        enemy.position = CGPoint(x: spawnPointX , y: size.height + enemy.size.height/2)
+        
+        addChild(enemy)
+        
+        let enemySpeed = random(min: CGFloat(2.0), max: CGFloat(4.0))
+        
+        let moveAction = SKAction.move(to: CGPoint(x: spawnPointX , y: -enemy.size.width/2), duration: TimeInterval(enemySpeed))
+        let moveActionDone = SKAction.removeFromParent()
+        enemy.run(SKAction.sequence([moveAction,moveActionDone]))
     }
 }

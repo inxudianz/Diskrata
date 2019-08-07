@@ -19,7 +19,6 @@
 		92AB12D522F9770700A0BF35 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12D422F9770700A0BF35 /* StartScene.swift */; };
 		92AB12D722F9771400A0BF35 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12D622F9771400A0BF35 /* GameOverScene.swift */; };
 		92AB12D922F9773100A0BF35 /* WatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12D822F9773100A0BF35 /* WatchController.swift */; };
-		92AB12DB22F9774F00A0BF35 /* Watch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AB12DA22F9774F00A0BF35 /* Watch.storyboard */; };
 		92AB12DE22F9776F00A0BF35 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12DD22F9776F00A0BF35 /* WatchView.swift */; };
 		92AB12E022F9779700A0BF35 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12DF22F9779700A0BF35 /* SoundPlayer.swift */; };
 		92AB12E222F977B600A0BF35 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12E122F977B600A0BF35 /* Score.swift */; };
@@ -42,7 +41,6 @@
 		92AB12D422F9770700A0BF35 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		92AB12D622F9771400A0BF35 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		92AB12D822F9773100A0BF35 /* WatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchController.swift; sourceTree = "<group>"; };
-		92AB12DA22F9774F00A0BF35 /* Watch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Watch.storyboard; sourceTree = "<group>"; };
 		92AB12DD22F9776F00A0BF35 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
 		92AB12DF22F9779700A0BF35 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		92AB12E122F977B600A0BF35 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			children = (
 				92AB12B522F7CBD700A0BF35 /* Main.storyboard */,
 				92AB12BA22F7CBD800A0BF35 /* LaunchScreen.storyboard */,
-				92AB12DA22F9774F00A0BF35 /* Watch.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -211,7 +208,6 @@
 			files = (
 				92AB12B722F7CBD700A0BF35 /* Main.storyboard in Resources */,
 				92AB12B922F7CBD800A0BF35 /* Assets.xcassets in Resources */,
-				92AB12DB22F9774F00A0BF35 /* Watch.storyboard in Resources */,
 				92AB12BC22F7CBD800A0BF35 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
