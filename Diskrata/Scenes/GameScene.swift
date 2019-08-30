@@ -44,4 +44,19 @@ class GameScene: SKScene {
         let moveActionDone = SKAction.removeFromParent()
         enemy.run(SKAction.sequence([moveAction,moveActionDone]))
     }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        let projectile = SKSpriteNode(imageNamed: "laser")
+        projectile.position = spaceShip.position
+        
+        addChild(projectile)
+        
+        let destination = spaceShip.position + CGPoint(x: 0, y: spaceShip.position.y + 1000)
+        
+ 
+        let actionMove = SKAction.move(to: destination, duration: 2.0)
+        let actionMoveDone = SKAction.removeFromParent()
+        projectile.run(SKAction.sequence([actionMove, actionMoveDone]))
+    }
 }
