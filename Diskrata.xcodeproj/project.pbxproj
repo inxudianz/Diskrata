@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9211A2852318BF3000614EED /* ProjectileCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9211A2842318BF3000614EED /* ProjectileCalculation.swift */; };
+		9211A2872318CD1700614EED /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9211A2862318CD1700614EED /* PhysicsCategory.swift */; };
 		92AB12AC22F7CBD700A0BF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12AB22F7CBD700A0BF35 /* AppDelegate.swift */; };
 		92AB12B222F7CBD700A0BF35 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12B122F7CBD700A0BF35 /* GameScene.swift */; };
 		92AB12B422F7CBD700A0BF35 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB12B322F7CBD700A0BF35 /* GameViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		9211A2842318BF3000614EED /* ProjectileCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileCalculation.swift; sourceTree = "<group>"; };
+		9211A2862318CD1700614EED /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 		92AB12A822F7CBD700A0BF35 /* Diskrata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diskrata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AB12AB22F7CBD700A0BF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92AB12B122F7CBD700A0BF35 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				92AB12E122F977B600A0BF35 /* Score.swift */,
 				92AB12E522F9789100A0BF35 /* LifePoints.swift */,
 				9211A2842318BF3000614EED /* ProjectileCalculation.swift */,
+				9211A2862318CD1700614EED /* PhysicsCategory.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AB12E622F9789100A0BF35 /* LifePoints.swift in Sources */,
+				9211A2872318CD1700614EED /* PhysicsCategory.swift in Sources */,
 				9211A2852318BF3000614EED /* ProjectileCalculation.swift in Sources */,
 				92AB12D322F976D500A0BF35 /* Projectile.swift in Sources */,
 				92AB12D522F9770700A0BF35 /* StartScene.swift in Sources */,
